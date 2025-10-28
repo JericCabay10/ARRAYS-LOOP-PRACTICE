@@ -1,4 +1,5 @@
-public class SumOfEvenElement {
+package sum;
+public class EvenElement {
     public static void main(String[] args) {
         int[] arr = {9, 2, 7, 4, 5, 6, 3, 8, 1, 10};
 
