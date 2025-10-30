@@ -1,21 +1,20 @@
-package sum;
-public class EvenElement {
+package Operators;
+
+public class OddElement {
     public static void main(String[] args) {
         int[] arr = {9, 2, 7, 4, 5, 6, 3, 8, 1, 10};
-
         int sum = 0;
 
         for(int a = 0; a < arr.length; a++) {
-            if(arr[a] % 2 == 0) {
+            if(arr[a] % 2 == 1) {
                 sum += arr[a];
             }
         }
 
-        System.out.println("Array = ");
         for(int array : arr) {
             System.out.print(array + " ");
         }
 
-        System.out.println("\nSum of even: " + sum);
+        System.out.println("\nSum of odd element: " + sum);
     }
 }

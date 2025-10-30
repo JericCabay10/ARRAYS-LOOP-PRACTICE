@@ -1,4 +1,4 @@
-package sum;
+package Operators;
 public class ElementInArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};

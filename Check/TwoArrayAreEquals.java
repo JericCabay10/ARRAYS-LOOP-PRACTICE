@@ -1,4 +1,4 @@
-package check;
+package Check;
 
 public class TwoArrayAreEquals {
     public static void main(String[] args) {

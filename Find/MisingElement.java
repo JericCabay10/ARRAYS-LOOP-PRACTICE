@@ -1,4 +1,4 @@
-package find;
+package Find;
 
 public class MisingElement {
     public static void main(String[] args) {
